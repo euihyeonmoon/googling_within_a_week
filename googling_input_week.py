@@ -13,6 +13,8 @@ date_list = []
 
 key = input("최근 1주 Google News 검색: ")
 url = 'https://www.google.com/search?q=' + key +'&tbm=nws&tbs=qdr:w'
+# 최근 한달 뉴스 검색하고싶으면 아래 url 활용
+# url = 'https://www.google.com/search?q=' + key +'&tbm=nws&tbs=qdr:m'
 
 def chroming(url):
     global options
